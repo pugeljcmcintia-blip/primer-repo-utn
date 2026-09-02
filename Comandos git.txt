@@ -14,3 +14,37 @@ git add .
 
 git commit -m 'mensaje descriptivo'
     Versionar los cambios añadidos
+
+    git branch -M main 
+
+    Renombrar la rama principal
+
+ 
+
+git remote add origin https://github.com/Matu-Dev-JS/2026_UTN_PWI_TN_MAR_JUE_PRIMER_REPOSITORIO.git
+
+    Añadir una direccion remota (Direccion de repositorio remoto) a nuestro repositorio local
+
+ 
+
+git remote -v
+
+    Verificar la direccion remota a la que esta conectado nuestro repositorio local
+
+ 
+
+git remote set-url origin <direccion del repositorio en la nube>
+
+    Modificar la direccion remota de nuestro repositorio en la nube
+
+ 
+
+ 
+
+Para actualizar un repositorio y subir otro commit
+
+    git add .
+
+    git commit -m 'mensaje'
+
+    git push
